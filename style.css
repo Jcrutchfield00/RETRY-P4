@@ -18,13 +18,53 @@ a:hover {
     cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
+#page-loading-blocs-notification {
     position: fixed;
     top: 0;
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    animation: loading 3s ease-out;
+    animation-fill-mode: forwards;
+}
+/* .loader{
+    position: absolute;
+    width: 25%;
+    animation: rotate 1s linear infinite;
+    animation-fill-mode: forwards;
+} */
+@keyframes loading{
+    0%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+.loader{
+position: absolute;
+top: 25%;
+animation: rotate 1s linear infinite;
+border: 16px solid #F3976C;
+border-bottom: 16px solid #364577;
+border-top: 16px solid #364577;
+border-radius: 50%;
+width: 275px;
+height: 275px;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 
 .bloc {
@@ -791,7 +831,8 @@ h4 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
+    color: #afb5c9!important;
+    text-transform: uppercase;
 }
 
 .service-header {
@@ -840,7 +881,9 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #cb4b10!important;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
 .ltc-atomic-tangerine:hover {
