@@ -2,25 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="seo, google, website, internet, web design, design agency, design agency, design agency, design agency, design agency, design agency, logo design atlanta">
-    <meta name="description" content="I'm Mike and your should hire me to build your website">
+    <meta name="description" content="Your local freelance web designer to hire! I will work with you to create a custom web design, website redesign, and logo designs. ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="robots" content="index, follow">
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap-min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
     
-	<script defer src="./js/jquery-2.1.0-min.js"></script>
-	<script defer src="./js/bootstrap-min.js"></script>
-	<script defer src="./js/blocs-min.js"></script>
-	<script defer src="./js/jquery.touchSwipe-min.js"></script>
-	<script defer src="./js/gmaps-min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js" integrity="sha512-qp27nuUylUgwBZJHsmm3W7klwuM5gke4prTvPok3X5zi50y3Mo8cgpeXegWWrdfuXyF2UdLWK/WCb5Mv7CKHcA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script defer src="./js/blocs.js"></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js" integrity="sha512-BNs09vwMdfabwyH36BehO8DJbV5S6RaO0vXqPqiMhYC8mZ4WsfwwPEVhMOl5D7gyrTSDDv98f3HgaOUDlFhywg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha512-gauu0VKZq9ry8hOZHgNpcB2ogbSDojs+XLDItpOLY0IyA+KigeuT/suwSdPgfU/TGYLAn4Nan4OeaCa/UPr70Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+	<!-- <script defer src="./js/jquery-2.1.0.js"></script>
+	<script defer src="./js/bootstrap.js"></script>
+	<script defer src="./js/blocs.js"></script>
+	<script defer src="./js/jquery.touchSwipe.js"></script>
+	<script defer src="./js/gmaps.js"></script> -->
 
-    <title>Go Mike Designs</title>
+    <title>Go Mike Designs | Atlanta Website Design Company</title>
 
     
 <!-- Analytics -->
@@ -29,34 +33,36 @@
     
 </head>
 <body class="page-container">
+	<div id="page-loading-blocs-notification">
+		<div class="loader" role="alert" aria-live="assertive" aria-label="content is loading"></div>
+		<span class="sr-only">Content is loading...</span>
+	  </div>
 <!-- Main container -->
     
 <!-- bloc-0 -->
 <header role="banner" class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
-		<nav role="navigation" class="navbar row">
+		<div class="navbar row">
 			<div class="navbar-header">
 					<!-- <div class="keywords" style="color:#cccccc;font-size:1px;">web agency atlanta, web strategy, web design, logo, website, web, internet, logo design</div> -->
 				<a class="navbar-brand" href="index.html"><img src="img/atlanta-web-design-logo.png" alt="Go Mike Designs" width="386" height="72" /></a>
 					<!-- <div class="keywords" style="color:#cccccc;font-size:1px;">web agency atlanta, web strategy, web design, logo, website, web, internet, logo design</div> -->
 
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+				<button aria-labelledby="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1" aria-haspopup="true" aria-expanded="false" aria-label="toggle navigation">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+			<nav id="nav-toggle" class="collapse navbar-collapse navbar-1 special-dropdown-nav" aria-expanded="true" aria-label="breadcrumb">
 				<ul class="site-navigation nav navbar-nav">
-					<li>
+					<li class="breadcrumb-item active" aria-current="page">
 						<a href="index.html">Home</a>
 					</li>
-					<li>
-					</li>
-					<li>
-						<a href="page2.html">page2</a>
+					<li class="breadcrumb-item">
+						<a href="page2.html">Contact</a>
 					</li>
 				</ul>
-			</div>
-		</nav>
+			</nav>
+		</div>
 	</div>
 </header>
 <!-- bloc-0 END -->
@@ -124,7 +130,7 @@
 		</div>
 		<div class="row voffset-lg voffset">
 			<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-				<p class="quote">"Mike's an awesome <span class="quote-bold">freelance web designer</span>! He captured the essence of our company in our website and has helped us <span class="quote-bold">double our online sales</span> for our shop in Atlanta."</p>
+				<p class="quote">"Mike's an awesome <strong><em>freelance web designer</em></strong>! He captured the essence of our company in our website and has helped us <strong><em>our online sales</em></strong> for our shop in Atlanta."</p>
 				<p class="quote_name">Taylor Cook, project manager Apple Delights</p>
 			</div>
 		</div>
@@ -171,7 +177,7 @@
 			<div class="col-sm-6">
 				<a href="#" data-lightbox="img/decorated_cupcakes.webp" data-gallery-id="gallery-1" data-caption="web redesign for the best cupcakes in Atlanta" data-frame="snapshot-lb"><img src="img/decorated_cupcakes.webp" width="600" height="338" class="img-responsive portfolio-thumb" alt="decorated cupcakes" /></a>
 				<h3 class="mg-md text-center">
-					Web redesign for the best Atlanta&nbsp;cupcakes
+					Website redesign for the best Atlanta&nbsp;cupcakes
 				</h3>
 				<p class="text-center">
 					They make the best cupcakes in Atlanta and I wanted to show this online.
