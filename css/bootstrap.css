@@ -4125,11 +4125,11 @@ textarea.input-group-sm>.input-group-btn>.btn {
     font-size: 18px;
     line-height: 20px
 }
-
+/* 
 .navbar-brand:focus,
 .navbar-brand:hover {
     text-decoration: none
-}
+} */
 
 .navbar-brand>img {
     display: block
