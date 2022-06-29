@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://jcrutchfield00.github.io/RETRY-P4/</title>
+  <link>https://jcrutchfield00.github.io/RETRY-P4/</link>
+
+<item>
+     <link>https://jcrutchfield00.github.io/RETRY-P4/</link>
+     <title>Go Mike Designs | Atlanta Website Design Company</title>
+     <description>Your local freelance web designer to hire! I will work with you to create a custom web design, website redesign, and logo designs. </description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://jcrutchfield00.github.io/RETRY-P4/index.html</link>
+     <title>Go Mike Designs | Atlanta Website Design Company</title>
+     <description>Your local freelance web designer to hire! I will work with you to create a custom web design, website redesign, and logo designs. </description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://jcrutchfield00.github.io/RETRY-P4/page2.html</link>
+     <title> Go Mike Designs contact page</title>
+     <description>Your local freelance web designer to hire! Please contact me!</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
